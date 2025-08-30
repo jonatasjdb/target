@@ -2,6 +2,26 @@
   "expo": {
     "name": "target",
     "slug": "target",
-    "version": "1.0.0"
+    "scheme": "target",
+    "version": "1.0.0",
+    "android": {
+      "package": "com.jonatas.target",
+      "edgeToEdgeEnabled": true,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#3D44CD"
+      }
+    },
+    "ios": {
+      "package": "com.jonatas.target",
+      "icon": "./assets/ios-icon.png",
+      "bundleIdentifier": "com.jonatas.target"
+    },
+    "web": {
+      "bundler": "metro"
+    },
+    "plugins": [
+      "expo-router"
+    ]
   }
 }

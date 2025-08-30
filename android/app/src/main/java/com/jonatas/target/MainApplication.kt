@@ -1,4 +1,4 @@
-package com.target
+package com.jonatas.target
 
 import android.app.Application
 import android.content.res.Configuration
